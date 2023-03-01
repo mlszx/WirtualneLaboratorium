@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      #container {
+      padding-top: 100px;
+      width: 90vw;
+      height: 70vh;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-row-gap: 50px;
+      grid-column-gap: 20px;
+      }
+      .item {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      text-align: left;
+      color: #222;
+      font-size: 1.5em;
+      background-color: #f1f1f1;
+      font-weight: normal;
+      border-radius: 30px;
+      box-shadow: 4px 4px 10px -6px #222;
+      cursor: default;
+      padding: 50px;
+      }
+
+      .item:hover {
+      color: #222;
+      border-radius: 30px;
+      transition: 0ms;
+      box-shadow: 4px 4px 10px -6px #222;
+      cursor: default;
+      }
+    </style>
+</head>
+<body class="bg">
+    <header>
+        <div class="navbar">
+          <h1 class="logo"></h1>
+    
+          <nav>
+            <ul>
+              <li><a href="index.html">Eksperymenty</a></li>
+              <li><a href="instrukcje.html">Instrukcje</a></li>
+              <li><a href="informacje.html">Informacje</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <div id="container">
+      <div class="item">Autorem strony jak i eksperymentów znajudjącej się na niej jest M. Jaskólski. <br> Strona powstała w celu zbadania czy doświadczenia w pierwszej pracowni fizycznej mogą zostać zastąpione symulacjami. Symulacje zostały utworzone dla trzech dośiwadczneń. <br> Po jednym doświadczeniu z każdego działu (mechanika, elektromagnetyzm, optyka)</div>
+    </div>
+</body>
+</html>

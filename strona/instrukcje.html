@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      #container {
+      padding-top: 100px;
+      width: 90vw;
+      height: 70vh;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr, 1fr, 1fr;
+      grid-row-gap: 10px;
+      grid-column-gap: 20px;
+      }
+      .item {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      text-align: left;
+      color: #222;
+      font-size: 1em;
+      background-color: #f1f1f1;
+      font-weight: normal;
+      border-radius: 30px;
+      box-shadow: 4px 4px 10px -6px #222;
+      cursor: default;
+      padding: 50px;
+      }
+
+      .item:hover {
+      color: #222;
+      border-radius: 30px;
+      transition: 0ms;
+      box-shadow: 4px 4px 10px -6px #222;
+      cursor: default;
+      }
+    </style>
+</head>
+<body class="bg">
+    <header>
+        <div class="navbar">
+          <h1 class="logo"></h1>
+    
+          <nav>
+            <ul>
+              <li><a href="index.html">Eksperymenty</a></li>
+              <li><a href="instrukcje.html">Instrukcje</a></li>
+              <li><a href="informacje.html">Informacje</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <div id="container">
+      <div class="item">
+        <h2>Ćwiczenie 102:<br><a href="https://phys.put.poznan.pl/cwiczenie-102">link do instrukcji</a></h2>
+        <ol>
+          <li>dostosować linkę do potrzeb pomiaru</li>
+          <li>rozpocząć pomiaru poprzez wciśnięcie klawisza "SPACJA"</li>
+          <li>odliczyć dziesięć okresów</li>
+          <li>zatrzymać pomiar klawiszem "ENTER"</li>
+          <li>zapisać czas pomiaru</li>
+          <li>odświeżyć strony klawiszem "F5"</li>
+        </ol>
+      </div>
+      <div class="item">
+        <h2>Ćwiczenie 204:<br><a href="https://phys.put.poznan.pl/cwiczenie-204">link do instrukcji</a></h2>
+        <ol>
+          <li>dostosować ilość zwojów np. 15</li>
+          <li>zwiększać napięcie aż ramka wychyli się o 10 mm</li>
+          <li>zapisać wartość natężenia</li>
+          <li>zwiększać napięcie aż ramka wychyli się o 20 mm</li>
+          <li>zapisać wartość natężenia</li>
+          <li>dalej zwiększać napięcie aż ramka wychyli się o 100 mm zapisując wartości co 10 mm.</li>
+          <li>zresetować pozycję ramki przy pomocy klawisza "SPACJA"</li>
+        </ol>
+      </div>
+      <div class="item">
+        <h2>Ćwiczenie 302 (nie działa):<br><a href="https://phys.put.poznan.pl/cwiczenie-302">link do instrukcji</a></h2>
+        <ol>
+          <li>przesuwać suwakiem aż trzy promienie światła się zbiegną (ostry obraz)</li>
+          <li>zapisać pozycję soczewki dla ostrego obrazu</li>
+          <li>przesuwać suwakiem aż trzy promienie światła się zbiegną w drugiej pozycji</li>
+          <li>zapisać pozycję soczewki dla ostrego obrazu</li>
+        </ol>
+      </div>
+    </div>
+</body>
+</html>
